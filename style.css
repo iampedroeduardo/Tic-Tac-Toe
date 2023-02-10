@@ -1,0 +1,40 @@
+#tabuleiro{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+}
+.botao2{
+    background: -webkit-linear-gradient(bottom, #46FFB9, #46FED7 80%);
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+.peca{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+.box {
+    width: 500px;
+    height: 200px;
+    background: #8A8A8A;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+}
